@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\build">
+      <UniqueIdentifier>{D5519164-BF26-36DA-740B-76CEFC1827F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal\custom">
+      <UniqueIdentifier>{C40A63E8-DEC6-D9F6-B0C6-030D87C22C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest">
+      <UniqueIdentifier>{D3E6212E-43F7-7493-968E-4DFA7B30FBD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest\include\gtest\internal">
+      <UniqueIdentifier>{1D4CEA7C-B637-77CF-7A24-85ABD36F82A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client">
+      <UniqueIdentifier>{A9537671-E7FD-2F0E-DE29-6155260B6944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\toolchain">
+      <UniqueIdentifier>{A1380BF2-B2E4-A638-7882-599BD9BAE887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\toolchain\win_x86">
+      <UniqueIdentifier>{47F03B19-AA7A-005C-1115-62AC53031C80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\native_client\toolchain\win_x86\pnacl_newlib">
+      <UniqueIdentifier>{E4581D44-A3E7-32A3-8310-EC6884814066}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gtest\src\gtest_main.cc">
+      <Filter>gtest\src</Filter>
+    </ClCompile>
+    <None Include="gtest_nacl.gyp"/>
+    <None Include="..\native_client\build\build_nexe.py">
+      <Filter>..\native_client\build</Filter>
+    </None>
+    <None Include="..\native_client\build\build_nexe_tools.py">
+      <Filter>..\native_client\build</Filter>
+    </None>
+    <ClInclude Include="gtest\include\gtest\gtest-death-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-message.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-param-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-printers.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-test-part.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest-typed-test.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest_pred_impl.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\gtest_prod.h">
+      <Filter>gtest\include\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\custom\gtest-port.h">
+      <Filter>gtest\include\gtest\internal\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\custom\gtest-printers.h">
+      <Filter>gtest\include\gtest\internal\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-death-test-internal.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-filepath.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-internal.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-linked_ptr.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-param-util-generated.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-param-util.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-port-arch.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-port.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-string.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-tuple.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="gtest\include\gtest\internal\gtest-type-util.h">
+      <Filter>gtest\include\gtest\internal</Filter>
+    </ClInclude>
+    <None Include="pnacl_newlib.gtest_main_nacl.source_list.gypcmd"/>
+    <None Include="..\native_client\toolchain\win_x86\pnacl_newlib\pnacl_newlib.json">
+      <Filter>..\native_client\toolchain\win_x86\pnacl_newlib</Filter>
+    </None>
+  </ItemGroup>
+</Project>
