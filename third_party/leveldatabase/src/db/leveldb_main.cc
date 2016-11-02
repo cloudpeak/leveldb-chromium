@@ -3,62 +3,59 @@
 // found in the LICENSE file. See the AUTHORS file for names of contributors.
 
 #include <stdio.h>
+#include <iostream>
+#include <sstream>
+#include <string>
+
+#include "base/at_exit.h"
 #include "leveldb/dumpfile.h"
 #include "leveldb/env.h"
 #include "leveldb/status.h"
+#include "leveldb/db.h"
 
-namespace leveldb {
-namespace {
-
-class StdoutPrinter : public WritableFile {
- public:
-  virtual Status Append(const Slice& data) {
-    fwrite(data.data(), 1, data.size(), stdout);
-    return Status::OK();
-  }
-  virtual Status Close() { return Status::OK(); }
-  virtual Status Flush() { return Status::OK(); }
-  virtual Status Sync() { return Status::OK(); }
-};
-
-bool HandleDumpCommand(Env* env, char** files, int num) {
-  StdoutPrinter printer;
-  bool ok = true;
-  for (int i = 0; i < num; i++) {
-    Status s = DumpFile(env, files[i], &printer);
-    if (!s.ok()) {
-      fprintf(stderr, "%s\n", s.ToString().c_str());
-      ok = false;
-    }
-  }
-  return ok;
-}
-
-}  // namespace
-}  // namespace leveldb
-
-static void Usage() {
-  fprintf(
-      stderr,
-      "Usage: leveldbutil command...\n"
-      "   dump files...         -- dump contents of specified files\n"
-      );
-}
 
 int main(int argc, char** argv) {
-  leveldb::Env* env = leveldb::Env::Default();
-  bool ok = true;
-  if (argc < 2) {
-    Usage();
-    ok = false;
-  } else {
-    std::string command = argv[1];
-    if (command == "dump") {
-      ok = leveldb::HandleDumpCommand(env, argv+2, argc-2);
-    } else {
-      Usage();
-      ok = false;
-    }
+  base::AtExitManager manager;
+  // Set up database connection information and open database
+  leveldb::DB* db = NULL;
+  leveldb::Options options;
+  options.create_if_missing = true;
+
+  leveldb::Status status = leveldb::DB::Open(options, "./testdb", &db);
+
+  if (false == status.ok()) {
+    std::cerr << "Unable to open/create test database './testdb'" << std::endl;
+    std::cerr << status.ToString() << std::endl;
+    return -1;
   }
-  return (ok ? 0 : 1);
+
+  // Add 256 values to the database
+  leveldb::WriteOptions writeOptions;
+  for (unsigned int i = 0; i < 256; ++i) {
+    std::ostringstream keyStream;
+    keyStream << "Key" << i;
+
+    std::ostringstream valueStream;
+    valueStream << "Test data value: " << i;
+
+    db->Put(writeOptions, keyStream.str(), valueStream.str());
+  }
+
+  // Iterate over each item in the database and print them
+  leveldb::Iterator* it = db->NewIterator(leveldb::ReadOptions());
+
+  for (it->SeekToFirst(); it->Valid(); it->Next()) {
+    std::cout << it->key().ToString() << " : "
+              << it->value().ToString() << std::endl;
+  }
+
+  if (false == it->status().ok()) {
+    std::cerr << "An error was found during the scan" << std::endl;
+    std::cerr << it->status().ToString() << std::endl;
+  }
+
+  delete it;
+
+  // Close the database
+  delete db;
 }
