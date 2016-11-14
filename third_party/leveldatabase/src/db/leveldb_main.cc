@@ -30,32 +30,39 @@ int main(int argc, char** argv) {
   }
 
   // Add 256 values to the database
-  leveldb::WriteOptions writeOptions;
-  for (unsigned int i = 0; i < 256; ++i) {
-    std::ostringstream keyStream;
-    keyStream << "Key" << i;
+  //leveldb::WriteOptions writeOptions;
+  //for (unsigned int i = 0; i < 1024* 128; ++i) {
+  //  std::ostringstream keyStream;
+  //  keyStream << "key" << i;
 
-    std::ostringstream valueStream;
-    valueStream << "Test data value: " << i;
+  //  std::ostringstream valueStream;
+  //  valueStream << "Test data value: " << i;
 
-    db->Put(writeOptions, keyStream.str(), valueStream.str());
-  }
+  //  db->Put(writeOptions, keyStream.str(), valueStream.str());
+  //}
 
   // Iterate over each item in the database and print them
   leveldb::Iterator* it = db->NewIterator(leveldb::ReadOptions());
-
-  for (it->SeekToFirst(); it->Valid(); it->Next()) {
-    std::cout << it->key().ToString() << " : "
-              << it->value().ToString() << std::endl;
-  }
-
-  if (false == it->status().ok()) {
-    std::cerr << "An error was found during the scan" << std::endl;
-    std::cerr << it->status().ToString() << std::endl;
-  }
-
   delete it;
+
+  //for (it->SeekToFirst(); it->Valid(); it->Next()) {
+  //  std::cout << it->key().ToString() << " : "
+  //            << it->value().ToString() << std::endl;
+  //}
+
+  //if (false == it->status().ok()) {
+  //  std::cerr << "An error was found during the scan" << std::endl;
+  //  std::cerr << it->status().ToString() << std::endl;
+  //}
+
+  db->Put(leveldb::WriteOptions(), "foo", "bar");
+  std::string bar;
+  while (1) {
+    db->Get(leveldb::ReadOptions(), "key0", &bar);
+  }
+
 
   // Close the database
   delete db;
+  std::cout << "all done\n";
 }
